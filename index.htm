@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>    
+        h1 {font-size: 5vh; margin-top: 5%; margin-bottom: 5%; font-style: italic;}
+        h6 {font-size: 3vh; font-weight: bold;}
+        
+        a { text-decoration:none }
+        div { text-align: center;}
+        
+        .content-img { width: 48vh;}
+        .logo { width: 30vh;}
+        .link-content { width: 16vh; }
+    </style>
+
     <title>
         POPDOG evereware
     </title>
 </head>
 <body>
     <div>
+
         <h1>
-            PDOG : POPDOG TOKEN
+            <b>PDOG : PopDog Token</b>
         </h1>
-        <img src='./images/symbol.png' width="25%" >
+
+        <img class="logo" src='./images/symbol.png'  >
+
+
+        <div>
+            <h6>
+                Second Token based on <a href="https://popcateum.org/" target="_blank">POPCATEUM</a> 
+            </h6>
+            <h6>
+                100,000,000 PDOG has exist!
+            </h6>
+        
+        </div>
         <br>
-
-        <h2>
-            Maybe second Token based on <a href="https://popcateum.org/" target="_blank">POPCATEUM</a> 
-        </h2>
-        <h2>
-            100,000,000 PDOG has exist!
-        </h2>
-       
-        <img src='./images/whatispopcat.png' width="50%">
-        
-        
-        <h2>WOW! The PDOG community</h2>
-        <h2>has anonymous very much supporters. Join Now!</h2>
-            
-        <img src='./images/supporter.png' width="50%">
-
-        <br> <a href="https://explorer.popcateum.org/address/0xcF9758A525f0D2a46F8C8162327ed53335A0DA55?network=Popcateum" target="_blank">Explorer</a> 
-        <br> <a href="https://open.kakao.com/o/gfr57tgd" target="_blank">Chat</a> 
-    </div>
     
-    <style>
-        h1 {font-size: 5vw;}
-        h2 {font-size: 2vw;}
-        p {}
-        div { text-align: center; }
-        
-    </style>
+        <img class="content-img" src='./images/whatispopcat.png'>
+
+        <h6>WOW! The PDOG community</h6>
+        <h6>has anonymous very much supporters. Join Now!</h6>
+            
+        <img class="content-img" src='./images/supporter.png'>
+
+        <div>
+            <a href="https://open.kakao.com/o/gfr57tgd" target="_blank">
+                <img class="link-content" src = "./images/talk.png">
+            </a> 
+            <a href="https://github.com/pdogclub" target="_blank">
+                <img class="link-content" src = "./images/git.png">
+            </a> 
+            <a href="https://explorer.popcateum.org/address/0xcF9758A525f0D2a46F8C8162327ed53335A0DA55?network=Popcateum" target="_blank">
+                <img class="link-content" src = "./images/explorer.png">
+            </a> 
+        </div>
+    </div>
     
 </body>
 </html>
